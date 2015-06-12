@@ -73,7 +73,7 @@
                                 <rect key="frame" x="-96" y="-4" width="456" height="575"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7F-Li-K3q">
-                                <rect key="frame" x="51" y="267" width="235" height="58"/>
+                                <rect key="frame" x="16" y="267" width="294" height="67"/>
                                 <state key="normal" title="Bottun" backgroundImage="btn041_09.png">
                                     <color key="titleColor" red="0.97354403410000001" green="0.50392130980000005" blue="0.2004944374" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kki-U3-jv0">
-                                <rect key="frame" x="51" y="195" width="235" height="58"/>
+                                <rect key="frame" x="16" y="187" width="294" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Button" backgroundImage="btn041_07.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -93,7 +93,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRD-48-CKy">
-                                <rect key="frame" x="51" y="342" width="235" height="58"/>
+                                <rect key="frame" x="16" y="342" width="288" height="67"/>
                                 <state key="normal" title="Botton" backgroundImage="btn041_02.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

@@ -39,7 +39,7 @@ class QuizViewController: UIViewController {
         super.viewDidLoad()
         
         //------------------------ここから下にクイズを書く------------------------//
-        quizArray.append(["このラーメン味がむつこいわあ。","このラーメン味が受け付けないな。","このラーメン味がしつこいな。","このラーメン味が薄いな",2])
+        quizArray.append(["この味がむつこいわあ。","この味が受け付けないな。","この味がしつこいな。","この味が薄いな",2])
         quizArray.append(["帰ってこーわい！","帰って戻ってくるね！","帰るね！","帰って違うところにいくね！",2])
         quizArray.append(["机かいて〜","机下げて〜","机の絵をかいて〜","机をあげて〜",1])
         quizArray.append(["その荷物かろって！","その荷物持ってきて！","その荷物背負って！","その荷物運んで！",2])
@@ -77,32 +77,32 @@ class QuizViewController: UIViewController {
             correctAnswer++
                     }
         
-        //解いた問題数の合計が予め設定していた問題数に達したら結果画面へ
-            if sum == questionNumber {
-                performSegueToResult()
-            }
-                quizArray.removeAtIndex(random)
-                choiceQuiz()
+        if sum == questionNumber {
+            
+            performSegueToResult()
+        
+        }
+        quizArray.removeAtIndex(random)
+        choiceQuiz()
+    }
     
     func performSegueToResult() {
         performSegueWithIdentifier("toResultView", sender: nil)
     }
-
-     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "toResultView") {
             
             var ResultView : ResultViewController = segue.destinationViewController as! ResultViewController
-
+            
             ResultView.correctAnswer = self.correctAnswer
         }
     }
     
-     func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 }
-}
-
-
 
