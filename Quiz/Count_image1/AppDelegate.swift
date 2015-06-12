@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Quiz
+//  Count_image1
 //
-//  Created by ohtatomotaka on 2015/02/10.
-//  Copyright (c) 2015年 LifeisTech. All rights reserved.
+//  Created by Nozomi Sakamoto on 2015/06/05.
+//  Copyright (c) 2015年 Nozomi Sakamoto. All rights reserved.
 //
 
 import UIKit
